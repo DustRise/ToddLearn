@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Counting.h"
 
 @interface ViewController : UIViewController
+
+@property(nonatomic,strong)Counting *count;
+- (IBAction)Counting:(id)sender;
 
 @end

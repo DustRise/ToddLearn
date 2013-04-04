@@ -19,6 +19,25 @@
 		E58E70DD170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E70DB170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard */; };
 		E58E70E0170D5D1E002D9966 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E70DE170D5D1E002D9966 /* MainStoryboard_iPad.storyboard */; };
 		E58E70E3170D5D1E002D9966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70E2170D5D1E002D9966 /* ViewController.m */; };
+		E58E70EB170D5D64002D9966 /* Counting.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70EA170D5D64002D9966 /* Counting.m */; };
+		E58E70EE170D6A9B002D9966 /* next5.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70EC170D6A9B002D9966 /* next5.png */; };
+		E58E70EF170D6A9B002D9966 /* ans.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70ED170D6A9B002D9966 /* ans.png */; };
+		E58E70F2170D6C77002D9966 /* message11.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70F0170D6C77002D9966 /* message11.png */; };
+		E58E70F3170D6C77002D9966 /* message12.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70F1170D6C77002D9966 /* message12.png */; };
+		E58E70F6170D6EB2002D9966 /* Alphabet.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70F5170D6EB2002D9966 /* Alphabet.m */; };
+		E58E70FD170D74AB002D9966 /* sorry (1).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E58E70FB170D74AB002D9966 /* sorry (1).mp3 */; };
+		E58E70FE170D74AB002D9966 /* excellent (2).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E58E70FC170D74AB002D9966 /* excellent (2).mp3 */; };
+		E58E7105170D74D9002D9966 /* 1flower.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70FF170D74D9002D9966 /* 1flower.png */; };
+		E58E7106170D74D9002D9966 /* 1car.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E7100170D74D9002D9966 /* 1car.png */; };
+		E58E7107170D74D9002D9966 /* 1bear.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E7101170D74D9002D9966 /* 1bear.png */; };
+		E58E7108170D74D9002D9966 /* 1apple.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E7102170D74D9002D9966 /* 1apple.png */; };
+		E58E7109170D74D9002D9966 /* 1monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E7103170D74D9002D9966 /* 1monkey.png */; };
+		E58E710A170D74D9002D9966 /* 1ping.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E7104170D74D9002D9966 /* 1ping.png */; };
+		E58E710C170D75F2002D9966 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58E710B170D75F2002D9966 /* AVFoundation.framework */; };
+		E58E710F170DA8DF002D9966 /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E710E170DA8DF002D9966 /* Animals.m */; };
+		E58E7112170DA90F002D9966 /* Fruits.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E7111170DA90F002D9966 /* Fruits.m */; };
+		E58E7115170DA92E002D9966 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E7114170DA92E002D9966 /* Colors.m */; };
+		E58E7118170DA95F002D9966 /* Months.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E7117170DA95F002D9966 /* Months.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +58,31 @@
 		E58E70DF170D5D1E002D9966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E58E70E1170D5D1E002D9966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E58E70E2170D5D1E002D9966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E58E70E9170D5D64002D9966 /* Counting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Counting.h; sourceTree = "<group>"; };
+		E58E70EA170D5D64002D9966 /* Counting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Counting.m; sourceTree = "<group>"; };
+		E58E70EC170D6A9B002D9966 /* next5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next5.png; sourceTree = "<group>"; };
+		E58E70ED170D6A9B002D9966 /* ans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ans.png; sourceTree = "<group>"; };
+		E58E70F0170D6C77002D9966 /* message11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message11.png; path = ToddLearn/message11.png; sourceTree = "<group>"; };
+		E58E70F1170D6C77002D9966 /* message12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = message12.png; path = ToddLearn/message12.png; sourceTree = "<group>"; };
+		E58E70F4170D6EB2002D9966 /* Alphabet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alphabet.h; sourceTree = "<group>"; };
+		E58E70F5170D6EB2002D9966 /* Alphabet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alphabet.m; sourceTree = "<group>"; };
+		E58E70FB170D74AB002D9966 /* sorry (1).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sorry (1).mp3"; sourceTree = "<group>"; };
+		E58E70FC170D74AB002D9966 /* excellent (2).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "excellent (2).mp3"; sourceTree = "<group>"; };
+		E58E70FF170D74D9002D9966 /* 1flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1flower.png; sourceTree = "<group>"; };
+		E58E7100170D74D9002D9966 /* 1car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1car.png; sourceTree = "<group>"; };
+		E58E7101170D74D9002D9966 /* 1bear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1bear.png; sourceTree = "<group>"; };
+		E58E7102170D74D9002D9966 /* 1apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1apple.png; sourceTree = "<group>"; };
+		E58E7103170D74D9002D9966 /* 1monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1monkey.png; sourceTree = "<group>"; };
+		E58E7104170D74D9002D9966 /* 1ping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1ping.png; sourceTree = "<group>"; };
+		E58E710B170D75F2002D9966 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E58E710D170DA8DF002D9966 /* Animals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Animals.h; path = ../Animals.h; sourceTree = "<group>"; };
+		E58E710E170DA8DF002D9966 /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Animals.m; path = ../Animals.m; sourceTree = "<group>"; };
+		E58E7110170DA90F002D9966 /* Fruits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fruits.h; path = ../Fruits.h; sourceTree = "<group>"; };
+		E58E7111170DA90F002D9966 /* Fruits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fruits.m; path = ../Fruits.m; sourceTree = "<group>"; };
+		E58E7113170DA92E002D9966 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colors.h; sourceTree = "<group>"; };
+		E58E7114170DA92E002D9966 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colors.m; sourceTree = "<group>"; };
+		E58E7116170DA95F002D9966 /* Months.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Months.h; path = ../Months.h; sourceTree = "<group>"; };
+		E58E7117170DA95F002D9966 /* Months.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Months.m; path = ../Months.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E58E710C170D75F2002D9966 /* AVFoundation.framework in Frameworks */,
 				E58E70C4170D5D1E002D9966 /* UIKit.framework in Frameworks */,
 				E58E70C6170D5D1E002D9966 /* Foundation.framework in Frameworks */,
 				E58E70C8170D5D1E002D9966 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				E58E70C9170D5D1E002D9966 /* ToddLearn */,
+				E58E70FB170D74AB002D9966 /* sorry (1).mp3 */,
+				E58E70FC170D74AB002D9966 /* excellent (2).mp3 */,
+				E58E70F0170D6C77002D9966 /* message11.png */,
+				E58E70F1170D6C77002D9966 /* message12.png */,
 				E58E70C2170D5D1E002D9966 /* Frameworks */,
 				E58E70C1170D5D1E002D9966 /* Products */,
 			);
@@ -75,6 +124,7 @@
 		E58E70C2170D5D1E002D9966 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E58E710B170D75F2002D9966 /* AVFoundation.framework */,
 				E58E70C3170D5D1E002D9966 /* UIKit.framework */,
 				E58E70C5170D5D1E002D9966 /* Foundation.framework */,
 				E58E70C7170D5D1E002D9966 /* CoreGraphics.framework */,
@@ -91,6 +141,18 @@
 				E58E70DE170D5D1E002D9966 /* MainStoryboard_iPad.storyboard */,
 				E58E70E1170D5D1E002D9966 /* ViewController.h */,
 				E58E70E2170D5D1E002D9966 /* ViewController.m */,
+				E58E70F4170D6EB2002D9966 /* Alphabet.h */,
+				E58E70F5170D6EB2002D9966 /* Alphabet.m */,
+				E58E710D170DA8DF002D9966 /* Animals.h */,
+				E58E710E170DA8DF002D9966 /* Animals.m */,
+				E58E7110170DA90F002D9966 /* Fruits.h */,
+				E58E7111170DA90F002D9966 /* Fruits.m */,
+				E58E7113170DA92E002D9966 /* Colors.h */,
+				E58E7114170DA92E002D9966 /* Colors.m */,
+				E58E7116170DA95F002D9966 /* Months.h */,
+				E58E7117170DA95F002D9966 /* Months.m */,
+				E58E70E9170D5D64002D9966 /* Counting.h */,
+				E58E70EA170D5D64002D9966 /* Counting.m */,
 				E58E70CA170D5D1E002D9966 /* Supporting Files */,
 			);
 			path = ToddLearn;
@@ -99,6 +161,14 @@
 		E58E70CA170D5D1E002D9966 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E58E70FF170D74D9002D9966 /* 1flower.png */,
+				E58E7100170D74D9002D9966 /* 1car.png */,
+				E58E7101170D74D9002D9966 /* 1bear.png */,
+				E58E7102170D74D9002D9966 /* 1apple.png */,
+				E58E7103170D74D9002D9966 /* 1monkey.png */,
+				E58E7104170D74D9002D9966 /* 1ping.png */,
+				E58E70EC170D6A9B002D9966 /* next5.png */,
+				E58E70ED170D6A9B002D9966 /* ans.png */,
 				E58E70CB170D5D1E002D9966 /* ToddLearn-Info.plist */,
 				E58E70CC170D5D1E002D9966 /* InfoPlist.strings */,
 				E58E70CF170D5D1E002D9966 /* main.m */,
@@ -167,6 +237,18 @@
 				E58E70DA170D5D1E002D9966 /* Default-568h@2x.png in Resources */,
 				E58E70DD170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E58E70E0170D5D1E002D9966 /* MainStoryboard_iPad.storyboard in Resources */,
+				E58E70EE170D6A9B002D9966 /* next5.png in Resources */,
+				E58E70EF170D6A9B002D9966 /* ans.png in Resources */,
+				E58E70F2170D6C77002D9966 /* message11.png in Resources */,
+				E58E70F3170D6C77002D9966 /* message12.png in Resources */,
+				E58E70FD170D74AB002D9966 /* sorry (1).mp3 in Resources */,
+				E58E70FE170D74AB002D9966 /* excellent (2).mp3 in Resources */,
+				E58E7105170D74D9002D9966 /* 1flower.png in Resources */,
+				E58E7106170D74D9002D9966 /* 1car.png in Resources */,
+				E58E7107170D74D9002D9966 /* 1bear.png in Resources */,
+				E58E7108170D74D9002D9966 /* 1apple.png in Resources */,
+				E58E7109170D74D9002D9966 /* 1monkey.png in Resources */,
+				E58E710A170D74D9002D9966 /* 1ping.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +262,12 @@
 				E58E70D0170D5D1E002D9966 /* main.m in Sources */,
 				E58E70D4170D5D1E002D9966 /* AppDelegate.m in Sources */,
 				E58E70E3170D5D1E002D9966 /* ViewController.m in Sources */,
+				E58E70EB170D5D64002D9966 /* Counting.m in Sources */,
+				E58E70F6170D6EB2002D9966 /* Alphabet.m in Sources */,
+				E58E710F170DA8DF002D9966 /* Animals.m in Sources */,
+				E58E7112170DA90F002D9966 /* Fruits.m in Sources */,
+				E58E7115170DA92E002D9966 /* Colors.m in Sources */,
+				E58E7118170DA95F002D9966 /* Months.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +400,7 @@
 				E58E70E8170D5D1E002D9966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
