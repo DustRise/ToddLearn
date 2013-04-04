@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E58E70C4170D5D1E002D9966 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58E70C3170D5D1E002D9966 /* UIKit.framework */; };
+		E58E70C6170D5D1E002D9966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58E70C5170D5D1E002D9966 /* Foundation.framework */; };
+		E58E70C8170D5D1E002D9966 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E58E70C7170D5D1E002D9966 /* CoreGraphics.framework */; };
+		E58E70CE170D5D1E002D9966 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E58E70CC170D5D1E002D9966 /* InfoPlist.strings */; };
+		E58E70D0170D5D1E002D9966 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70CF170D5D1E002D9966 /* main.m */; };
+		E58E70D4170D5D1E002D9966 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70D3170D5D1E002D9966 /* AppDelegate.m */; };
+		E58E70D6170D5D1E002D9966 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70D5170D5D1E002D9966 /* Default.png */; };
+		E58E70D8170D5D1E002D9966 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70D7170D5D1E002D9966 /* Default@2x.png */; };
+		E58E70DA170D5D1E002D9966 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E58E70D9170D5D1E002D9966 /* Default-568h@2x.png */; };
+		E58E70DD170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E70DB170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard */; };
+		E58E70E0170D5D1E002D9966 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58E70DE170D5D1E002D9966 /* MainStoryboard_iPad.storyboard */; };
+		E58E70E3170D5D1E002D9966 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58E70E2170D5D1E002D9966 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E58E70C0170D5D1E002D9966 /* ToddLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToddLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58E70C3170D5D1E002D9966 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E58E70C5170D5D1E002D9966 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E58E70C7170D5D1E002D9966 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E58E70CB170D5D1E002D9966 /* ToddLearn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToddLearn-Info.plist"; sourceTree = "<group>"; };
+		E58E70CD170D5D1E002D9966 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E58E70CF170D5D1E002D9966 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E58E70D1170D5D1E002D9966 /* ToddLearn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToddLearn-Prefix.pch"; sourceTree = "<group>"; };
+		E58E70D2170D5D1E002D9966 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E58E70D3170D5D1E002D9966 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E58E70D5170D5D1E002D9966 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E58E70D7170D5D1E002D9966 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E58E70D9170D5D1E002D9966 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E58E70DC170D5D1E002D9966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E58E70DF170D5D1E002D9966 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E58E70E1170D5D1E002D9966 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E58E70E2170D5D1E002D9966 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58E70BD170D5D1E002D9966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58E70C4170D5D1E002D9966 /* UIKit.framework in Frameworks */,
+				E58E70C6170D5D1E002D9966 /* Foundation.framework in Frameworks */,
+				E58E70C8170D5D1E002D9966 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E58E70B7170D5D1E002D9966 = {
+			isa = PBXGroup;
+			children = (
+				E58E70C9170D5D1E002D9966 /* ToddLearn */,
+				E58E70C2170D5D1E002D9966 /* Frameworks */,
+				E58E70C1170D5D1E002D9966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E58E70C1170D5D1E002D9966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58E70C0170D5D1E002D9966 /* ToddLearn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E58E70C2170D5D1E002D9966 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E58E70C3170D5D1E002D9966 /* UIKit.framework */,
+				E58E70C5170D5D1E002D9966 /* Foundation.framework */,
+				E58E70C7170D5D1E002D9966 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E58E70C9170D5D1E002D9966 /* ToddLearn */ = {
+			isa = PBXGroup;
+			children = (
+				E58E70D2170D5D1E002D9966 /* AppDelegate.h */,
+				E58E70D3170D5D1E002D9966 /* AppDelegate.m */,
+				E58E70DB170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard */,
+				E58E70DE170D5D1E002D9966 /* MainStoryboard_iPad.storyboard */,
+				E58E70E1170D5D1E002D9966 /* ViewController.h */,
+				E58E70E2170D5D1E002D9966 /* ViewController.m */,
+				E58E70CA170D5D1E002D9966 /* Supporting Files */,
+			);
+			path = ToddLearn;
+			sourceTree = "<group>";
+		};
+		E58E70CA170D5D1E002D9966 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E58E70CB170D5D1E002D9966 /* ToddLearn-Info.plist */,
+				E58E70CC170D5D1E002D9966 /* InfoPlist.strings */,
+				E58E70CF170D5D1E002D9966 /* main.m */,
+				E58E70D1170D5D1E002D9966 /* ToddLearn-Prefix.pch */,
+				E58E70D5170D5D1E002D9966 /* Default.png */,
+				E58E70D7170D5D1E002D9966 /* Default@2x.png */,
+				E58E70D9170D5D1E002D9966 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58E70BF170D5D1E002D9966 /* ToddLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58E70E6170D5D1E002D9966 /* Build configuration list for PBXNativeTarget "ToddLearn" */;
+			buildPhases = (
+				E58E70BC170D5D1E002D9966 /* Sources */,
+				E58E70BD170D5D1E002D9966 /* Frameworks */,
+				E58E70BE170D5D1E002D9966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ToddLearn;
+			productName = ToddLearn;
+			productReference = E58E70C0170D5D1E002D9966 /* ToddLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58E70B8170D5D1E002D9966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dustrise;
+			};
+			buildConfigurationList = E58E70BB170D5D1E002D9966 /* Build configuration list for PBXProject "ToddLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E58E70B7170D5D1E002D9966;
+			productRefGroup = E58E70C1170D5D1E002D9966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58E70BF170D5D1E002D9966 /* ToddLearn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58E70BE170D5D1E002D9966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58E70CE170D5D1E002D9966 /* InfoPlist.strings in Resources */,
+				E58E70D6170D5D1E002D9966 /* Default.png in Resources */,
+				E58E70D8170D5D1E002D9966 /* Default@2x.png in Resources */,
+				E58E70DA170D5D1E002D9966 /* Default-568h@2x.png in Resources */,
+				E58E70DD170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E58E70E0170D5D1E002D9966 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58E70BC170D5D1E002D9966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58E70D0170D5D1E002D9966 /* main.m in Sources */,
+				E58E70D4170D5D1E002D9966 /* AppDelegate.m in Sources */,
+				E58E70E3170D5D1E002D9966 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E58E70CC170D5D1E002D9966 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58E70CD170D5D1E002D9966 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E58E70DB170D5D1E002D9966 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58E70DC170D5D1E002D9966 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E58E70DE170D5D1E002D9966 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58E70DF170D5D1E002D9966 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58E70E4170D5D1E002D9966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E58E70E5170D5D1E002D9966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58E70E7170D5D1E002D9966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToddLearn/ToddLearn-Prefix.pch";
+				INFOPLIST_FILE = "ToddLearn/ToddLearn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E58E70E8170D5D1E002D9966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ToddLearn/ToddLearn-Prefix.pch";
+				INFOPLIST_FILE = "ToddLearn/ToddLearn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58E70BB170D5D1E002D9966 /* Build configuration list for PBXProject "ToddLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58E70E4170D5D1E002D9966 /* Debug */,
+				E58E70E5170D5D1E002D9966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58E70E6170D5D1E002D9966 /* Build configuration list for PBXNativeTarget "ToddLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58E70E7170D5D1E002D9966 /* Debug */,
+				E58E70E8170D5D1E002D9966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58E70B8170D5D1E002D9966 /* Project object */;
+}
