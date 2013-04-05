@@ -7,7 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface Months : UIViewController
+{
+    IBOutlet UIButton *Jan,*feb,*mar,*apr,*may,*june,*july,*aug,*sep,*oct,*nov,*dec;
+
+    IBOutlet UIBarButtonItem *back,*weeks;
+    int changing,chang1;
+    IBOutlet UIImageView *setimg;
+    NSURL *urlpath1,*urlpath2;
+    AVAudioPlayer *play;
+    NSString *strpath1;
+    IBOutlet UIButton *btn;
+    IBOutlet UIScrollView *scrl;
+    
+
+}
+-(IBAction)backclick:(id)sender;
+-(IBAction)weeksclick:(id)sender;
+-(IBAction)monthsclick:(id)sender;
 
 @end

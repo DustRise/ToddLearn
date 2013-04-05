@@ -24,7 +24,7 @@
     IBOutlet UIButton *btn;
     
 }
--(IBAction)Changealphtoword:(id)sender;
+
 -(IBAction)clickletters:(id)sender;
 -(IBAction)clickalphabets:(id)sender;
 -(IBAction)clickanimation:(id)sender;
