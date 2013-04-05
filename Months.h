@@ -14,6 +14,7 @@
     IBOutlet UIButton *Jan,*feb,*mar,*apr,*may,*june,*july,*aug,*sep,*oct,*nov,*dec;
 
     IBOutlet UIBarButtonItem *back,*weeks;
+    int flog;
     int changing,chang1;
     IBOutlet UIImageView *setimg;
     NSURL *urlpath1,*urlpath2;
@@ -21,10 +22,11 @@
     NSString *strpath1;
     IBOutlet UIButton *btn;
     IBOutlet UIScrollView *scrl;
+    int letter;
     
 
 }
--(IBAction)backclick:(id)sender;
+-(IBAction)Back;
 -(IBAction)weeksclick:(id)sender;
 -(IBAction)monthsclick:(id)sender;
 
