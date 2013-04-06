@@ -43,37 +43,12 @@
 }
 -(IBAction)shapesclick:(id)sender;
 {
-    red.hidden=YES;
-    green.hidden=YES;
-    blue.hidden=YES;
-    Black.hidden=YES;
-    pink.hidden=YES;
-    Yellow.hidden=YES;
-    Purple.hidden=YES;
-    Orange.hidden=YES;
-    Cyan.hidden=YES;
-    brown.hidden=YES;
-    white.hidden=YES;
-    maganta.hidden=YES;
-    
-    chang1=0;
+      chang1=0;
     if(letters==0)
     {
-        flog=1;
+        flog=0;
        
-        red.hidden=NO;
-        green.hidden=NO;
-        blue.hidden=NO;
-        Black.hidden=NO;
-        pink.hidden=NO;
-        Yellow.hidden=NO;
-        Purple.hidden=NO;
-        Orange.hidden=NO;
-        Cyan.hidden=NO;
-        brown.hidden=NO;
-        white.hidden=NO;
-        maganta.hidden=NO;
-        
+               
         [self.navigationItem setTitle:@"Colors"];
         chang1=0;
         [shapes setTitle:@"Shapes"];
@@ -98,22 +73,8 @@
     else if (letters==1)
         
     {
-        flog=0;
-        red.hidden=NO;
-        green.hidden=NO;
-        blue.hidden=NO;
-       Black.hidden=NO;
-        pink.hidden=NO;
-        Yellow.hidden=NO;
-        Purple.hidden=NO;
-        Orange.hidden=NO;
-       Cyan.hidden=NO;
-        brown.hidden=NO;
-       white.hidden=NO;
-        maganta.hidden=NO;
-        
-        
-        [self.navigationItem setTitle:@"Shapes"];
+        flog=1;
+            [self.navigationItem setTitle:@"Shapes"];
         chang1=0;
         [shapes setTitle:@"Colors"];
         [red setTitle:@"Circle" forState:normal];
@@ -588,7 +549,7 @@
             
             
         }
-        else if([@"November"isEqual:[sender currentTitle]])
+        else if([@"December"isEqual:[sender currentTitle]])
         {
             strpath1=[[NSBundle mainBundle]pathForResource:@"excellent (2)" ofType:@"mp3"];
             urlpath1=[NSURL fileURLWithPath:strpath1];
@@ -596,7 +557,7 @@
             play=[[AVAudioPlayer alloc]initWithContentsOfURL:urlpath1 error:&error ];
             [play prepareToPlay];
             [play play];
-            [btn setTitle:@"November" forState:normal];
+            [btn setTitle:@"December" forState:normal];
             //setimg.image=[UIImage imageNamed:@"00.png"];
             [UIView beginAnimations:nil context:nil];
             [UIView setAnimationDuration:3.0];

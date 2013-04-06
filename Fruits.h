@@ -11,9 +11,9 @@
 
 @interface Fruits : UIViewController
 {
-    IBOutlet UIButton *Guava,*Apple,*Banana,*apr,*may,*june,*july,*aug,*sep,*oct,*nov,*dec;
+    IBOutlet UIButton *Guava,*Apple,*banana,*Canteloupe,*Lychee,*Straberry,*Orange,*Mango,*Pineapple,*Grape,*Papaya,*Watermillon;
     
-    IBOutlet UIBarButtonItem *back,*weeks;
+    IBOutlet UIBarButtonItem *back,*Veg;
     int flog;
     int changing,chang1;
     IBOutlet UIImageView *setimg;
@@ -27,8 +27,8 @@
     
 }
 -(IBAction)Back;
--(IBAction)weeksclick:(id)sender;
--(IBAction)monthsclick:(id)sender;
+-(IBAction)vegclick:(id)sender;
+-(IBAction)fruitsclick:(id)sender;
 
 
 @end
