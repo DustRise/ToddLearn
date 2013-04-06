@@ -7,6 +7,7 @@
 //
 
 #import "Counting.h"
+#import "ViewController.h"
 
 @interface Counting ()
 
@@ -52,7 +53,10 @@
 }
 -(IBAction)tdclick:(id)sender;
 {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    ViewController *view=[[ViewController alloc]init];
+    view=[self.storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+    [self presentViewController:view animated:YES completion:nil];
+
 
 }
 

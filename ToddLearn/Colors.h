@@ -23,7 +23,6 @@
     IBOutlet UIButton *btn;
     int flog,letters;
         
-    
 }
 -(IBAction)backclick:(id)sender;
 -(IBAction)shapesclick:(id)sender;
