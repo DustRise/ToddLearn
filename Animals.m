@@ -523,7 +523,7 @@
             [play prepareToPlay];
             [play play];
             [btn setTitle:@"Cpasicom" forState:normal];
-            //setimg.image=[UIImage imageNamed:@"00.png"];
+             //setimg.image=[UIImage imageNamed:@"00.png"];
             [UIView beginAnimations:nil context:nil];
             [UIView setAnimationDuration:3.0];
             btn.transform=CGAffineTransformMakeScale(2.2, 2.2);
